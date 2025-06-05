@@ -10,3 +10,13 @@ document.addEventListener("scroll", () => {
     bottomnavLogoElem.style.display = "none";
   }
 });
+
+function toggleMobileNav() {
+  const links = document.getElementById("links");
+  if (links.style.display === "block") {
+    links.style.display = "none";
+  } else {
+    links.style.display = "block";
+    links;
+  }
+}

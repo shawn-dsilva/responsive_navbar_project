@@ -10,6 +10,58 @@ body {
   background-color: lightblue;
 }
 
+.mobilenav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mobilenav {
+    width: 100%;
+    overflow: hidden;
+  background-color: aquamarine;
+  position: fixed;
+  top:0
+}
+
+.mobilenav #links{
+  display: none;
+  height: 100%;
+}
+
+.mobilenav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.mobilenav a.icon {
+  background: aquamarine;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.mobilenav li a {
+    display: block;
+  color: unset;
+  text-decoration: unset;
+}
+
+
+
+.navbar {
+    display: none;
+}
+
+@media (min-width: 700px) {
+
+.mobilenav {
+    display: none;
+}
 .navbar {
   height: auto;
   width: 100%;
@@ -42,15 +94,17 @@ body {
   margin-left: auto;
 }
 
+.topnav li a {
+  color: unset;
+  text-decoration: unset;
+}
+
 .topnav li {
   margin: auto 10px;
   display: block;
 }
 
-.topnav li a {
-  color: unset;
-  text-decoration: unset;
-}
+
 
 #bottomnav-logo {
   padding-right: 1.5rem;
@@ -83,6 +137,7 @@ body {
 .bottomnav-right li {
   margin-right: 20px;
 }
+}
 
 .dummy-content {
   height: 400px;
@@ -97,3 +152,4 @@ body {
   height: 100%;
   flex-direction: column;
 }
+
