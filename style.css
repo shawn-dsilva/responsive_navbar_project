@@ -58,6 +58,7 @@ body {
   display: block;
   color: unset;
   text-decoration: unset;
+  font-size: 18px;
 }
 
 .inner-mobilenav {
@@ -74,6 +75,17 @@ body {
   height: fit-content;
   text-transform: uppercase;
   color: unset;
+}
+
+.sub-mobile-links {
+  border-top: 3px solid grey;
+  border-bottom: 3px solid grey;
+}
+
+.sub-mobile-links a {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 12px 10px;
 }
 
 .navbar {
