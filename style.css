@@ -10,11 +10,32 @@ body {
 }
 
 .navbar {
-  height: 6%;
+  height: 8%;
   width: 100%;
   background-color: aquamarine;
+  display: flex;
 }
 
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.topnav {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.topnav ul {
+  margin-left: auto;
+}
+
+.topnav li {
+  margin: 5px 10px;
+}
 .dummy-content {
   height: 400px;
   width: 700px;
