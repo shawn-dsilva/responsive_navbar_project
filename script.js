@@ -1,8 +1,12 @@
 document.addEventListener("scroll", () => {
-  const topnavEl = document.getElementById("topnav");
-  if (window.pageYOffset > 1500) {
-    topnavEl.style.display = "none";
+  const topnavElem = document.getElementById("topnav");
+  const bottomnavLogoElem = document.getElementById("bottomnav-logo");
+
+  if (window.pageYOffset > 200) {
+    topnavElem.style.display = "none";
+    bottomnavLogoElem.style.display = "block";
   } else {
-    topnavEl.style.display = "flex";
+    topnavElem.style.display = "flex";
+    bottomnavLogoElem.style.display = "none";
   }
 });

@@ -52,6 +52,11 @@ body {
   text-decoration: unset;
 }
 
+.bottomnav img {
+  padding-right: 1.5rem;
+  display: none;
+}
+
 .bottomnav li a {
   color: unset;
   text-decoration: unset;
