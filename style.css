@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.navbar {
+  height: 6%;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.dummy-content {
+  height: 400px;
+  width: 700px;
+  background-color: white;
+  border: 3px black;
+  margin: 1rem auto;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
