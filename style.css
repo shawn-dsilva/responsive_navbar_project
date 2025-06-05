@@ -38,6 +38,11 @@ body {
   margin: auto 10px;
   display: block;
 }
+
+.topnav li a {
+  color: unset;
+  text-decoration: unset;
+}
 .dummy-content {
   height: 400px;
   width: 700px;
