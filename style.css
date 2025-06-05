@@ -32,6 +32,10 @@ body {
   margin: auto;
 }
 
+.topnav {
+  padding: 1.2rem 0;
+}
+
 .topnav ul {
   margin-left: auto;
 }
@@ -55,10 +59,12 @@ body {
   width: 100%;
 }
 .bottomnav li {
-  font-size: 20px;
+  font-size: 16px;
   display: block;
   margin-right: auto;
   padding: 20px 0;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 #subscribe {
