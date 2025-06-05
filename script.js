@@ -17,7 +17,7 @@ function toggleMobileNav() {
 
   if (links.style.display === "block") {
     links.style.display = "none";
-    mobileNavElem.style.height = "auto";
+    mobileNavElem.style.height = "9%";
   } else {
     links.style.display = "block";
     mobileNavElem.style.height = "100%";

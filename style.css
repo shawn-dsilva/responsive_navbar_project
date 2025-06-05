@@ -18,8 +18,8 @@ body {
 }
 
 .mobilenav #logo {
-  margin: 5px 10px;
-  margin-bottom: 0px;
+  margin: 17px 16px;
+  margin-left: 3.2rem;
 }
 
 .mobilenav {
@@ -29,6 +29,7 @@ body {
   background-color: aquamarine;
   position: fixed;
   top: 0;
+  display: block;
 }
 
 .mobilenav #links {
@@ -49,7 +50,7 @@ body {
   background: aquamarine;
   display: block;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
 }
 
@@ -57,6 +58,22 @@ body {
   display: block;
   color: unset;
   text-decoration: unset;
+}
+
+.inner-mobilenav {
+  display: flex;
+}
+
+.inner-mobilenav #mobile-subscribe {
+  margin: auto;
+  margin-right: 0;
+  font-size: 14px;
+  padding: unset;
+  padding: 8px;
+  border-right: 2px solid whitesmoke;
+  height: fit-content;
+  text-transform: uppercase;
+  color: unset;
 }
 
 .navbar {
