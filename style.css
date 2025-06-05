@@ -16,6 +16,8 @@ body {
   background-color: aquamarine;
   display: flex;
   flex-direction: column;
+  top: 0;
+  position: fixed;
 }
 
 .navbar ul {
