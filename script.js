@@ -13,10 +13,13 @@ document.addEventListener("scroll", () => {
 
 function toggleMobileNav() {
   const links = document.getElementById("links");
+  const mobileNavElem = document.getElementById("mobilenav");
+
   if (links.style.display === "block") {
     links.style.display = "none";
+    mobileNavElem.style.height = "auto";
   } else {
     links.style.display = "block";
-    links;
+    mobileNavElem.style.height = "100%";
   }
 }

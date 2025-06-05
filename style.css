@@ -16,6 +16,11 @@ body {
   padding: 0;
 }
 
+.mobilenav #logo {
+    margin: 5px 10px;
+    margin-bottom:0px
+}
+
 .mobilenav {
     width: 100%;
     overflow: hidden;
