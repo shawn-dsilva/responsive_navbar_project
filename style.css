@@ -78,14 +78,40 @@ body {
 }
 
 .sub-mobile-links {
-  border-top: 3px solid grey;
-  border-bottom: 3px solid grey;
+  padding: 15px !important;
+  border-top: 3px solid lightgrey;
+  border-bottom: 3px solid lightgrey;
 }
 
 .sub-mobile-links a {
   font-size: 14px;
   font-weight: normal;
   padding: 12px 10px;
+}
+
+.mobile-search {
+  display: flex;
+}
+
+.mobile-search input[type="text"] {
+  padding: 10px;
+  margin-left: auto;
+  font-size: 16px;
+  border: 1px solid grey;
+  width: 70%;
+  background: white;
+}
+
+.mobile-search button {
+  width: 15%;
+  margin-right: auto;
+  padding: 10px;
+  background: lightgrey;
+  color: white;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
 }
 
 .navbar {
